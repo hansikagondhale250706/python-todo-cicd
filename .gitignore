@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Flask database and instance files
+instance/
+*.db
+
+# Environment variables and secrets
+.env
+
+# IDE and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
